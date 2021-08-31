@@ -22,4 +22,12 @@ public class MoodAnalyseTest {
 
 
     }
+
+    //Constructor in message should return Happy
+    @Test
+    public void givenMessage_AnyMood_Should_Return_HAPPY() {
+        MoodAnalyzerMain moodAnalyser = new MoodAnalyzerMain("I am in Happy Mood");
+        String mood = moodAnalyser.analyseMood();
+        Assertions.assertEquals("HAPPY", mood);
+    }
 }
