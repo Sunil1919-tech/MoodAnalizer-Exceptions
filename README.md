@@ -1,0 +1,1 @@
+# MoodAnalizer-Exceptions
