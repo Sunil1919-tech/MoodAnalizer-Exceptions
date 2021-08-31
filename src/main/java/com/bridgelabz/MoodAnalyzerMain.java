@@ -17,12 +17,18 @@ public class MoodAnalyzerMain {
     }
 
     /*
-    Declaring analyseMood Method
+    Declaring analyseMood class
+    exception Handling implentation
      */
     public String analyseMood() {
-        if (this.message.contains("Sad"))
-            return "SAD";
-        else
+        try {
+
+            if (this.message.contains("Sad"))
+                return "SAD";
+            else
+                return "HAPPY";
+        } catch (NullPointerException e) {
             return "HAPPY";
+        }
     }
 }

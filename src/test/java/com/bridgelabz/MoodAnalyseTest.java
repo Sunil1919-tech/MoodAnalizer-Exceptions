@@ -12,7 +12,7 @@ import org.junit.jupiter.api.Test;
  * @since 28/08/2021
  */
 public class MoodAnalyseTest {
-    //testCase to predict the mood happy/Sad
+    //testCase to predict the mood Sad
     @Test
     public void givenMessage_SadMood_Should_Return_Sad() {
         MoodAnalyzerMain moodAnalyzer = new MoodAnalyzerMain("I am In a Sad Mood");
