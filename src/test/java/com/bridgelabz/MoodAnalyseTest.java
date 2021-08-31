@@ -25,7 +25,6 @@ public class MoodAnalyseTest {
         }
 
     }
-
     //Constructor in message should return Happy
     @Test
     public void givenMessage_AnyMood_Should_Return_HAPPY() {
